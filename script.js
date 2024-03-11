@@ -6,8 +6,6 @@ const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
   question.innerHTML = "YAY!";
-  gif.src =
-    "https://www.icegif.com/wp-content/uploads/love-hug-icegif.gif";
 });
 
 noBtn.addEventListener("mouseover", () => {
