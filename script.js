@@ -5,7 +5,9 @@ const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "yay!";
+  question.innerHTML = "Kocham Cię! 😘";
+  gif.src =
+    "https://www.icegif.com/wp-content/uploads/love-hug-icegif.gif";
 });
 
 noBtn.addEventListener("mouseover", () => {
