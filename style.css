@@ -6,6 +6,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    font-family: italic;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +26,6 @@ h2 {
     font-size: 3em;
     color: red;
     margin: 15px 0;
-    font-family: italic;
 }
 .btn-group {
     width: 100%;
