@@ -58,8 +58,8 @@ button:nth-child(2) {
 }
 .confetti {
   position: fixed;
-  width: 100px;
-  height: 100px;
+  width: 1000px;
+  height: 1000px;
   background-color: #ffcc00;
   border-radius: 50%;
   box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.5);
