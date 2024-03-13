@@ -3,10 +3,6 @@ const question = document.querySelector(".question");
 const gif = document.querySelector(".gif");
 const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
-import JSConfetti from 'js-confetti'
-
-const jsConfetti = new JSConfetti()
-
 
 let scaleFactor = 1;
 
@@ -17,7 +13,20 @@ yesBtn.addEventListener("click", () => {
   yesBtn.style.transform = "scale(1.2)";
   yesBtn.style.display = "none";
   noBtn.style.display = "none";
-  jsConfetti.addConfetti()
+  function generateConfetti() {
+  const confetti = document.createElement("div");
+  confetti.classList.add("confetti");
+
+  confetti.style.left = Math.random() * 100 + "vw";
+  confetti.style.animationDuration = Math.random() * 2 + 3 + "s";
+  confetti.style.opacity = Math.random();
+  confetti.style.transform = "rotate(" + Math.random() * 360 + "deg)";
+  document.body.appendChild(confetti);
+  confetti.addEventListener("animationend", () => {
+    confetti.remove();
+  });
+}
+setInterval(generateConfetti, 100);
 });
 
 noBtn.addEventListener("click", () => {
