@@ -4,7 +4,7 @@ const gif = document.querySelector(".gif");
 const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
-let scaleFactor = 1;
+//let scaleFactor = 1;
 
 yesBtn.addEventListener("click", () => {
   question.innerHTML = "You're the best(prettiest) girl in the 🌎";
