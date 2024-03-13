@@ -73,6 +73,7 @@ button:nth-child(2) {
     0% 100%,
     0% 35%
   ); 
+animation-duration: 5s;
 }
 
 @keyframes fall {
