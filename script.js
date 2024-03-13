@@ -3,6 +3,10 @@ const question = document.querySelector(".question");
 const gif = document.querySelector(".gif");
 const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
+import JSConfetti from 'js-confetti'
+
+const jsConfetti = new JSConfetti()
+
 
 let scaleFactor = 1;
 
@@ -13,7 +17,7 @@ yesBtn.addEventListener("click", () => {
   yesBtn.style.transform = "scale(1.2)";
   yesBtn.style.display = "none";
   noBtn.style.display = "none";
-  confetti();
+  jsConfetti.addConfetti()
 });
 
 noBtn.addEventListener("click", () => {
