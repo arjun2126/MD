@@ -26,6 +26,6 @@ noBtn.addEventListener("click", () => {
   noBtn.style.left = randomX + "px";
   noBtn.style.top = randomY + "px";
   
-  scaleFactor -= 0.1;
+  scaleFactor -= 0.3;
   noBtn.style.transform = `scale(${scaleFactor})`;
 });
