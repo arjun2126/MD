@@ -23,7 +23,7 @@ body {
 }
 h2 {
     text-align: center;
-    font-size: 5em;
+    font-size: 3em;
     color: 	#e0ffff;
     margin: 15px 0;
 }
@@ -39,13 +39,13 @@ button {
     width: 150px;
     height: inherit;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.2em;
     border-radius: 30px;
     outline: none;
     cursor: pointer;
     box-shadow: 0 2px 4px gray;
     border: 2px solid #e94d58;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 button:nth-child(1) {
     margin-left: -200px;
