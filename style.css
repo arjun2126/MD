@@ -57,7 +57,7 @@ button:nth-child(2) {
     color: #e94d58;
 }
 .confetti {
-  position: random;
+  position: fixed;
   width: 200px;
   height: 200px;
   background-color: #ffcc00;
@@ -69,9 +69,9 @@ button:nth-child(2) {
 
 @keyframes fall {
   0% {
-    transform: translateY(0);
+    transform: translateY(-10vh);
   }
   100% {
-    transform: translateY(100vh);
+    transform: translateY(110vh);
   }
 }
