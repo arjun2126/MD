@@ -13,6 +13,7 @@ yesBtn.addEventListener("click", () => {
   yesBtn.style.transform = "scale(1.2)";
   yesBtn.style.display = "none";
   noBtn.style.display = "none";
+  confetti();
 });
 
 noBtn.addEventListener("click", () => {
