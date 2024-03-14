@@ -44,7 +44,4 @@ noBtn.addEventListener("click", () => {
   if (scaleFactor < 0.3) {
     scaleFactor = 0.3; 
   }
-  const yesBtnScale = parseFloat(yesBtn.style.transform.replace('scale(', '').replace(')', '')) || 1;
-  const newScale = yesBtnScale * 1.2;
-  yesBtn.style.transform = `scale(${newScale})`;  
 });
