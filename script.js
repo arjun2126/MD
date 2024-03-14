@@ -8,7 +8,7 @@ let scaleFactor = 1;
 
 yesBtn.addEventListener("click", () => {
   gif.src = "https://media0.giphy.com/media/wO4cyxpDbtHji/giphy.gif?cid=6c09b9526zygcv5y2nv0qvg33jqlrv1mc4ru4wksc6ckevfi&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g";
-  question.innerHTML = "Mel=Living & breathing Angel🤩.<br>You're the best(prettiest) girl in the 🌎. ";
+  question.innerHTML = "You're the best(prettiest) girl in the 🌎. ";
   yesBtn.style.transform = "scale(1.2)";
   yesBtn.style.display = "none";
   noBtn.style.display = "none";
