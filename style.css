@@ -84,3 +84,28 @@ animation-duration: 5s;
     transform: translateY(200vh);
   }
 }
+.gif-container {
+  width: 300px; /* Adjust as needed */
+  height: 300px; /* Adjust as needed */
+  position: relative;
+  overflow: hidden;
+}
+
+.gif-container::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnk5c2ozOXgwNGlmcnR5ajRobGlicGw2cmFobGRpbmNkendqNjYyYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cMhb8KnzZ9FgDPEAaL/giphy.gif') center/contain no-repeat; /* Heart-shaped image */
+  clip-path: polygon(
+    50% 0%,
+    90% 35%,
+    100% 90%,
+    50% 100%,
+    0% 90%,
+    10% 35%
+  );
+}
