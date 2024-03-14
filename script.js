@@ -7,7 +7,6 @@ const noBtn = document.querySelector(".no-btn");
 let scaleFactor = 1;
 
 yesBtn.addEventListener("click", () => {
-  document.write("<p>Melanie, are you the sun? Because you're the only thing that can light up my nights and make my melatonin levels rise. You're the best(prettiest) girl in the 🌎</p>");
   gif.src = "https://media0.giphy.com/media/wO4cyxpDbtHji/giphy.gif?cid=6c09b9526zygcv5y2nv0qvg33jqlrv1mc4ru4wksc6ckevfi&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g";
   question.innerHTML = "You're the best(prettiest) girl in the 🌎<br>";
   yesBtn.style.transform = "scale(1.2)";
